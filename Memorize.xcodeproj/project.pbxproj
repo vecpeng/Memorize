@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1BC38EC264CF4E6000E8380 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC38EB264CF4E6000E8380 /* Array+Only.swift */; };
 		C1F3BC282641A7710027AFCE /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3BC272641A7710027AFCE /* MemorizeApp.swift */; };
 		C1F3BC2A2641A7710027AFCE /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3BC292641A7710027AFCE /* EmojiMemoryGameView.swift */; };
 		C1F3BC2C2641A7730027AFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F3BC2B2641A7730027AFCE /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1BC38EB264CF4E6000E8380 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 		C1F3BC242641A7710027AFCE /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F3BC272641A7710027AFCE /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		C1F3BC292641A7710027AFCE /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				C1F3BC302641A7730027AFCE /* Info.plist */,
 				C1F3BC2D2641A7730027AFCE /* Preview Content */,
 				C1F3BC552641A8C70027AFCE /* MemorizeGame.swift */,
+				C1BC38EB264CF4E6000E8380 /* Array+Only.swift */,
 				C1F3BC5A2641A8E30027AFCE /* EmojiMemoryGame.swift */,
 			);
 			path = Memorize;
@@ -281,6 +284,7 @@
 				C1F3BCA8264552230027AFCE /* Grid.swift in Sources */,
 				C1F3BCB226456B320027AFCE /* Array+Identifiable.swift in Sources */,
 				C1F3BC5B2641A8E30027AFCE /* EmojiMemoryGame.swift in Sources */,
+				C1BC38EC264CF4E6000E8380 /* Array+Only.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,8 @@ struct EmojiMemoryGameView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
+        Text(viewModel.theme.name)
+        Text("score: \(viewModel.score)")
         Grid(viewModel.cards) { card in
             CardView(card: card).onTapGesture {
                 viewModel.choose(card: card)
@@ -19,6 +21,9 @@ struct EmojiMemoryGameView: View {
             .padding(0)
             .foregroundColor(.orange)
             .font(.largeTitle)
+        }
+        Button(action: viewModel.resetGame) {
+            Text("Reset Game")
         }
     }
 }
@@ -56,7 +61,10 @@ struct CardView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    static var theme = ThemeCollection().themes[Int.random(in: 0..<6)]
     static var previews: some View {
-        EmojiMemoryGameView(viewModel: EmojiMemoryGame())
+        EmojiMemoryGameView(viewModel: EmojiMemoryGame(
+                                theme: theme
+        ))
     }
 }
